@@ -10,7 +10,7 @@ function App() {
     
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="/ProLocoNuscoWebSite">
                 <Routes>
                     <Route path='/' element={
                         <div style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover' }}>
